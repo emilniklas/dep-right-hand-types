@@ -72,7 +72,7 @@ As if this wasn't enough, the `dynamic` keyword (although considered a type name
 ```dart
 var x;                // implicit dynamic type, mutable
 final x;              // implicit dynamic type, immutable
-const x;              // implicit dynamic type, immutable
+const x;              // implicit dynamic type, constant
 var x = 0;            // implicit int type, mutable
 final x = 0;          // implicit int type, immutable
 const x = 0;          // implicit int type, constant
@@ -91,7 +91,7 @@ The proposed way of cleaning up the confusion from above, is to follow the examp
 ```dart
 var x;                // implicit dynamic type, mutable
 final x;              // implicit dynamic type, immutable
-const x;              // implicit dynamic type, immutable
+const x;              // implicit dynamic type, constant
 var x = 0;            // implicit int type, mutable
 final x = 0;          // implicit int type, immutable
 const x = 0;          // implicit int type, constant
@@ -327,7 +327,7 @@ This proposal suggests quite a drastic change to the core syntax of the language
 ```dart
 var x;                // implicit dynamic type, mutable
 final x;              // implicit dynamic type, immutable
-const x;              // implicit dynamic type, immutable
+const x;              // implicit dynamic type, constant
 var x = 0;            // implicit int type, mutable
 final x = 0;          // implicit int type, immutable
 const x = 0;          // implicit int type, constant
