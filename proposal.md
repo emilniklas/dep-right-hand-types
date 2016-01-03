@@ -59,7 +59,7 @@ const String a = 'value';
 
 Although this is easy to understand, it raises two important points:
 
-1. Mutability is encouraged (the opposite require an increase in verbosity).
+1. Mutability is encouraged (the opposite requires an increase in verbosity).
 2. `var` is indistinguishable from a type annotation.
 
 ### Optional types and type inference
